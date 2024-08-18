@@ -1,0 +1,13 @@
+create_short_term_deposit 2 2 3000
+create_short_term_deposit 2 2 4000
+calc_money_in_bank 2 2
+create_short_term_deposit 2 2 3000
+create_gharzolhasane_deposit 2 3 10000
+pass_time 10
+calc_all_money 2
+calc_money_in_bank 2 2
+calc_money_in_bank 2 3
+inventory_report 2 2 1
+inventory_report 2 2 2
+inventory_report 2 2 3
+create_long_term_deposit 2 2 1 5 14000
